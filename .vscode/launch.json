@@ -1,0 +1,13 @@
+{
+  "configurations": [
+    {
+      "name": "1. Debug google-oauth-cli",
+      "request": "launch",
+      "type": "pwa-node",
+      "port": 9229,
+      "cwd": "${workspaceFolder}",
+      "args": ["--inspect", "--watch", "src/index.ts"],
+      "console": "integratedTerminal"
+    }
+  ]
+}
